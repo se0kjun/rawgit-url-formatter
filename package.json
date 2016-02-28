@@ -1,0 +1,25 @@
+{
+  "name": "rawgit-url-formatter",
+  "version": "1.0.0",
+  "description": "rawgit url formatter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/se0kjun/rawgit-url-formatter.git"
+  },
+  "keywords": [
+    "rawgit",
+    "url",
+    "formatter",
+    "format"
+  ],
+  "author": "Seokjun Hong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/se0kjun/rawgit-url-formatter/issues"
+  },
+  "homepage": "https://github.com/se0kjun/rawgit-url-formatter#readme"
+}
