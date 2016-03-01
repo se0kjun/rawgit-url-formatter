@@ -23,6 +23,9 @@ module.exports = function(url) {
 	} else if (REGEX_GIST_URL.test(url)) {
 		result.dev = url.replace(REGEX_GIST_URL, '$1://' + devDomain + '/$2');
 		result.cdn = url.replace(REGEX_GIST_URL, '$1://' + cdnDomain + '/$2');
+	} else {
+		result.dev = url;
+		result.cdn = url;
 	}
 
 	return result;
